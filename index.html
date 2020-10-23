@@ -15,10 +15,14 @@
   </head>
   <body>
     <div class="page-wrapper">
+      <!-- hamburger button -->
+      <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+      </div>
+
       <header id="header">
         <div class="logo">
-          <a href="#"
-            ><img
+          <a  id="guitar-pic" href="#"><img
               style="height: 100px; width: 150px;"
               id="header-img"
               src="https://cdn.shopify.com/s/files/1/0550/6737/products/ORANGEWOOD_ECHO_SPRUCE_SOLID_TOP_DREADNAUGHT_ACOUSTIC_GUITAR-1_2000x.png?v=1542226941"
@@ -252,5 +256,11 @@
     </footer>
 
     <!-- this is for header -->
+    <script>
+      document.querySelector('.menu-btn').addEventListener('click', () => 
+        document.querySelector('.top-links').classList.toggle('show'));
+    </script>
   </body>
 </html>
+
+
