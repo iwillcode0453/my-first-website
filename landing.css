@@ -35,6 +35,10 @@ header {
   z-index: 1;
 }
 
+header .my-name {
+  font-family: 'Lobster', cursive;
+}
+
 .nav-link {
   color: var(--dark);
   padding: 5px;
