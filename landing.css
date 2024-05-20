@@ -13,10 +13,9 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  border: 5px solid palegreen;
 }
 body {
-  /* background: url(https://images.unsplash.com/photo-1594602247823-6d907063311b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80) */
+  background: url(https://images.unsplash.com/photo-1594602247823-6d907063311b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80)
     no-repeat center center/cover;
   font-family: "Lato", sans-serif;
   text-align: center;
