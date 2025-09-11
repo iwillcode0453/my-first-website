@@ -24,6 +24,7 @@ body {
   position: relative;
 }
 
+
 header {
   position: fixed;
   top: 0;
@@ -164,24 +165,6 @@ p {
 footer {
   margin-top: 50px;
 }
-
-/* border for all contents */
-/* header .logo {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-items: flex-start;
-} */
-/* header .navbar {
-    border: 2px solid red;
-    display: grid;
-  } */
-
-/* header #nav-bar {
-  display: grid;
-
-  align-items: center;
-} */
 
 .logo .my-name {
   max-width: 100%;
@@ -472,6 +455,7 @@ textarea {
 }
 
 /* media queries for header section */
+
 @media (max-width: 700px) {
   header {
     display: grid;
@@ -487,6 +471,7 @@ textarea {
     grid-template-columns: 1fr;
     grid-gap: 10px;
   }
+  
   .top-links a {
     margin-right: 0;
   }
@@ -498,6 +483,9 @@ textarea {
   textarea {
     width: 250px;
   }
+  a.nav-link.four {
+    margin-bottom: 30px;
+}
 }
 
 @media (max-width: 600px) {
