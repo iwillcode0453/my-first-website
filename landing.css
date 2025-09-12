@@ -98,6 +98,7 @@ header .logo {
   height: 500px;
   background-color: orange;
   margin: 0 auto;
+  margin-top: 200px;
   text-align: left;
   flex-wrap: wrap;
   box-shadow: var(--shadow);
@@ -649,4 +650,5 @@ textarea {
   footer {
     margin-top: 80px;
   }
+
 } */
