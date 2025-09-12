@@ -256,10 +256,29 @@
     </footer>
 
     <!-- this is for header -->
+    <!-- this is for header javascript effect-->
     <script>
-      document.querySelector('.menu-btn').addEventListener('click', () => 
-        document.querySelector('.top-links').classList.toggle('show'));
+      const toplinks = document.querySelector(".top-links");
+      const menubtn = document.querySelector(".menu-btn");
+
+      // document.querySelector('.menu-btn').addEventListener('click', () => 
+      // document.querySelector('.top-links').classList.toggle('show'));
+
+      menubtn.addEventListener("click", (e) => {
+        e.stopPropagation(); // Prevent click from bubbling up to document 
+        toplinks.classList.toggle("show");
+      });
+      document.addEventListener("click", (e) => {
+        // if the click is outside the menu and button, hide the menu
+        if (!menubtn.contains(e.target) && !toplinks.contains(e.target)) {
+          toplinks.classList.remove('show');
+          menubtn.classList.remove('show');
+        }
+      });
+        
+      
     </script>
+
   </body>
 </html>
 
