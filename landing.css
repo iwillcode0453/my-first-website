@@ -17,6 +17,7 @@
 body {
   background: url(https://images.unsplash.com/photo-1594602247823-6d907063311b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80)
     no-repeat center center/cover;
+  background-attachment: fixed;
   font-family: "Lato", sans-serif;
   text-align: center;
 }
@@ -652,4 +653,5 @@ textarea {
   }
 
 } */
+
 
